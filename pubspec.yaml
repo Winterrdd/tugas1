@@ -1,9 +1,9 @@
-name: perpustakaan_app
+name: pintar_baca
 description: Aplikasi Perpustakaan Digital
 
 publish_to: 'none'
 
-version: 1.0.0+1
+version: 1.0.0+3
 
 environment:
   sdk: '>=3.0.0 <4.0.0'
@@ -17,6 +17,13 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.13.1
+  change_app_package_name: ^1.1.0
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: false
+  image_path: "assets/images/1.png"
 
 flutter:
   uses-material-design: true
